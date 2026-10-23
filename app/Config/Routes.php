@@ -8,7 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Auth::login');
 $routes->match(['get', 'post'], 'login', 'Auth::login');
 $routes->get('logout', 'Auth::logout');
- $routes->get('admin/backup', 'DatabaseBackup::download', ['filter' => 'auth']);
+$routes->get('admin/backup', 'DatabaseBackup::download', ['filter' => 'auth']);
  
 $routes->group('', ['filter' => 'auth'], static function ($routes) {
     $routes->get('dashboard/admin', 'Dashboard::admin');

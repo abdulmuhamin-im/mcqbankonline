@@ -1,5 +1,5 @@
 #MCQ Bank
-Riphah International University
+##Riphah International University
 (Peshawar Campus)
 
 # CodeIgniter 4 Application Starter
