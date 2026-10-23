@@ -1,3 +1,7 @@
+#MCQ Bank
+Riphah International University
+(Peshawar Campus)
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
